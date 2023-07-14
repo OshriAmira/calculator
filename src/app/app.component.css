@@ -1,0 +1,127 @@
+.mycalc{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(236, 235, 235);
+}
+
+.title{
+    display: flex;
+    margin: 10px;
+    color: red;
+    font-size: 40px;
+
+}
+
+.all-btn{
+    display: flex;
+}
+
+.all-btn-numbers{
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+}
+
+.all-btn-signs{
+    display: flex;
+    flex-direction: column;
+}
+
+.all-btn-numbers button{
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-extra{
+    display: flex;
+}
+
+.btn-extra button{
+    background-color: red;
+    color: black;
+}
+
+.all-btn-signs button{
+    background-color: yellow;
+    border: none;
+    margin: 10px;
+    color: rgb(247, 160, 80);
+    border-radius: 50px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    
+}
+
+.all-btn-signs button :hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(253, 253, 20);
+}
+.all-btn-numbers button :hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(1,1,1);
+}
+
+.btn-clear-equal {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-clear-equal button{
+    width: 120px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-clear-equal button :hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(1,1,1);
+}
+
+#clear{
+    background-color: red;
+    color: white;
+}
+
+#equal{
+    background-color: gray;
+    color: black;
+}
+
+#clear :hover{
+    background-color: white;
+    color: black;
+
+}
+
+input{
+    width: 226px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 1px solid gray;
+
+}
